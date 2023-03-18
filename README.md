@@ -2,48 +2,51 @@
 
 #### Banco de Dados criado com as seguintes Tabelas e seus atributos:
 
-Tabela:
-    ---> employee:
-            - Fname
-            - Minit
-            - Lname
-            - Ssn
-            - Bdate
-            - Address
-            - Sex
-            - Salary
-            - Super_ssn
-            - Dno
+<br>
 
-    ---> department
-            - Dname
-            - Dnumber
-            - Mgr_ssn
-            - Mgr_start_date
-            - Dept_create_date
+## <b> - TABELAS - </b>
+## employee:
+* Fname
+* Minit
+* Lname
+* Ssn
+* Bdate
+* Address
+* Sex
+* Salary
+* Super_ssn
+* Dno
 
-    ---> dept_locations
-            - Dnumber
-            - Dlocation
+## department
+* Dname
+* Dnumber
+* Mgr_ssn
+* Mgr_start_date
+* Dept_create_date
 
-    ---> project
-            - Pname
-            - Pnumber
-            - Plocation
-            - Dnum 
+## dept_locations
+* Dnumber
+* Dlocation
 
-    ---> works_on
-            - Essn
-            - Pno
-            - Hours
+## project
+* Pname
+* Pnumber
+* Plocation
+* Dnum 
 
-    ---> dependent
-            - Essn
-            - Dependent_name
-            - Sex
-            - Bdate
-            - Relationship
+## works_on
+* Essn
+* Pno
+* Hours
 
+## dependent
+* Essn
+* Dependent_name
+* Sex
+* Bdate
+* Relationship
+
+<br>
 
 #### Comandos aplicados:
 
